@@ -1,0 +1,24 @@
+{
+  "id": "crypto-20261112-0125",
+  "portfolio": "crypto",
+  "decided_at_utc": "2026-11-12T01:25:00Z",
+  "model": "Claude",
+  "summary": "Open with a small bitcoin position of $250 and keep the other three quarters in cash, because bitcoin is in a falling trend and is resting on a long-term support line that may or may not hold.",
+  "thesis": "Bitcoin closed 11 November at $73,928 and was trading near $73,500 to $73,700 around the time of this decision. It is down about 16% from its September peak and roughly 7% over the past month. It sits below its 20-day average (about $78,100) and its 50-day average (about $81,400), and only about 1% above its 200-day average (about $73,100), which it briefly broke on Tuesday. By the plan's own test, bitcoin below its recent average and falling, this is a time to hold less.\n\nThe reasons behind the fall have not gone away. October US consumer prices rose 0.4% on the month, more than expected, and futures now put the chance of a Federal Reserve rate increase on 9 December at roughly 85% to 95%. Higher interest rates usually weigh on assets like crypto. US spot bitcoin funds have lost money on most days this month, about $1.3 billion in the first week alone, and the largest fund had seven straight days of withdrawals to 9 November. Sentiment gauges read fear (Fear and Greed index in the high 20s), and reports say small investors are not buying the dip.\n\nThere are two reasons not to sit entirely in cash. First, the account is measured against simply holding bitcoin, so owning none is itself a large bet. Second, the price is at a level where long-term buyers have often stepped in, the pace of fund withdrawals has slowed (from $412 million on Friday to $201 million on Monday), and fearful sentiment tends to come late in a decline rather than early. A quarter of the account in bitcoin keeps me in the game if the line holds and limits the damage if it does not.\n\nI am not buying other coins. Ether, Solana and XRP have all fallen more than bitcoin over the past month (Solana about 19% and below its own 200-day average), ether funds are also seeing withdrawals, and none has a specific reason of its own that would justify the extra risk right now.\n\nWhat I will do next: add to bitcoin, and consider ether, if bitcoin closes back above about $75,500 and then its 20-day average with fund flows turning positive. Hold at this size while it drifts between about $72,000 and $75,500. Cut the position if bitcoin posts daily closes clearly below about $72,000, which would mean the 200-day line has failed. This view is wrong if bitcoin rebounds sharply from here, in which case I will lag the benchmark and pay up to rejoin.",
+  "risks": "If bitcoin bounces hard off its 200-day average, three quarters of the account in cash will fall behind the benchmark. If the line breaks, the $250 position loses money, though far less than a full holding would. The fill is at the 13 November open, which could differ noticeably from today's price. The averages and fund-flow figures come from news reports rather than my own calculation and may be slightly off. The Fed decision on 9 December and inflation data on 25 November could move prices sharply either way.",
+  "strategy_change": "Plan moved to version 2. It now names the measures of trend (the 20-day, 50-day and 200-day averages of bitcoin's price) and sets rough exposure bands: about 0-30% invested when bitcoin is below both shorter averages, about 30-60% once it is back above the 20-day average, and up to fully invested when it is above both and rising. It also notes that the 35% limit per holding means matching bitcoin in an uptrend requires holding other coins, with ether as the default second holding.",
+  "orders": [
+    {
+      "side": "BUY",
+      "symbol": "BTC",
+      "usd": 250,
+      "reason": "Starter anchor position, about 25% of the account, at the 200-day average while the shorter trend is still down."
+    }
+  ],
+  "sources": [
+    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-falls-below-74k-hot-144004327.html",
+    "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
+    "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/",
+    "https://u.today/price-analysis/solana-sol-gram-gram-hyperliquid-hype-and-bitcoin-btc-price-analysis-for-november-12-it-is-a"
+  ]
+}
