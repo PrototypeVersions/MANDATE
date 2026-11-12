@@ -105,7 +105,7 @@ class LiveProvider:
     def _stock(self, symbol: str) -> dict:
         ticker = symbol.replace(".", "-")
         url = ("https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(ticker)
-               + "?range=3mo&interval=1d&events=div%2Csplits")
+               + "?range=1y&interval=1d&events=div%2Csplits")
         res = http_json(url)["chart"]["result"][0]
         if res.get("meta", {}).get("currency") not in (None, "USD"):
             raise RuntimeError("not a US dollar listing")
@@ -149,7 +149,7 @@ class LiveProvider:
             date = datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d")
             bars.append({"date": date, "open": float(o), "close": float(c), "volume": float(vol) * float(c)})
         bars.sort(key=lambda b: b["date"])
-        bars = bars[-95:]
+        bars = bars[-300:]
         return {"bars": bars, "dividends": {}, "splits": {}, "source": "Coinbase Exchange daily candles"}
 
 
@@ -276,6 +276,17 @@ def liquidity_problem(data: dict, date: str, rules: dict):
     if median < rules["min_median_dollar_volume"]:
         return "trades too thinly (median daily dollar volume is under the minimum)"
     return None
+
+
+def trend(bars: list) -> dict:
+    """Plain trend figures from completed daily bars, for the decision runs to read."""
+    closes = [b["close"] for b in bars]
+    out = {}
+    for n in (5, 20, 60):
+        out[f"change_{n}d_pct"] = round((closes[-1] / closes[-1 - n] - 1) * 100, 2) if len(closes) > n else None
+    for n in (20, 50, 200):
+        out[f"average_{n}d"] = round(sum(closes[-n:]) / n, 6) if len(closes) >= n else None
+    return out
 
 
 def pending_orders(journal: list, portfolio: str):
@@ -420,6 +431,7 @@ def run_cycle(root: Path, now: datetime, provider) -> dict:
                 "date": last["date"], "close": last["close"],
                 "change_pct": round((last["close"] / prev - 1) * 100, 2) if prev else None,
                 "source": data.get("source", ""),
+                **trend(data["bars"]),
             }
         for sym in list(prices[portfolio]):
             if sym not in wanted:

@@ -81,6 +81,10 @@ class EngineTest(unittest.TestCase):
         acct = self.read("state.json")["portfolios"]["stocks"]
         self.assertEqual(acct["cash"], 1000)
         self.assertEqual(acct["benchmark"]["start_date"], "2026-11-03")
+        spy = self.read("market.json")["prices"]["stocks"]["SPY"]
+        self.assertEqual(spy["average_20d"], 100)
+        self.assertEqual(spy["change_5d_pct"], 0)
+        self.assertIsNone(spy["average_200d"])
         self.assertEqual(self.read("history.json")["stocks"], [
             {"date": "2026-11-03", "equity": 1000, "benchmark": 1000, "cash": 1000}])
 

@@ -190,7 +190,8 @@
       renderJournal(journal, filter);
     }));
     for (const name of ["stocks", "crypto"]) {
-      get(`strategy/${name}.md`).then((text) => { $(`#plan-${name}`).innerHTML = markdown(text); })
+      Promise.all([get(`strategy/${name}.md`), get(`lessons/${name}.md`).catch(() => "")])
+        .then(([plan, lessons]) => { $(`#plan-${name}`).innerHTML = markdown(plan) + markdown(lessons.replace(/^# /m, "## ")); })
         .catch(() => { $(`#plan-${name}`).innerHTML = '<p class="quiet">The plan could not be loaded.</p>'; });
     }
   }
