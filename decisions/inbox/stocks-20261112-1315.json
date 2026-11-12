@@ -1,0 +1,37 @@
+{
+  "id": "stocks-20261112-1315",
+  "portfolio": "stocks",
+  "decided_at_utc": "2026-11-12T13:15:00Z",
+  "model": "Claude",
+  "summary": "Open the account three quarters invested: $300 in an S&P 500 fund, $300 in an equal-weight S&P 500 fund and $150 in a health care fund, keeping $250 in cash until Nvidia's results and the December interest rate decision are out of the way.",
+  "thesis": "This is the first trade. The account starts with $1,000 in cash and the plan says to stay mostly invested with a broad core.\n\nThe backdrop is mixed. The S&P 500 fund SPY ended 11 November at $759.81, about 4% above its 200-day average ($731) but just under its 50-day average ($765) and roughly flat over one and three months. Under that calm surface a lot has moved. Technology and chip stocks have fallen hard (XLK down 8.4% and the chip fund SMH down 10.2% over 20 trading days) while health care, banks, consumer staples and the average stock have risen (XLV up 8.6%, XLF up 7.5%, and the equal-weight fund RSP up 5.0% over the same 20 days). RSP is above its 20, 50 and 200-day averages; SPY and the Nasdaq fund QQQ are below their 50-day averages.\n\nThree things are pushing in that direction. First, inflation: October consumer prices rose 0.4% against 0.3% expected, the 10-year Treasury yield is at about 5%, and markets put the chance of a Federal Reserve rate increase on 9 December at roughly 86% to 88%, with one Fed governor saying a larger increase should be considered. Higher rates hurt the most expensive stocks most. Second, the largest company in the index has a leadership crisis: Nvidia's board has opened an investigation into its chief executive and is reported to be weighing whether to remove him, the shares were down more than 5% before the open today, and its results are expected around 18 November. Third, the recovery in chip stocks this week has won back less than a third of what they lost since early October. Futures on the morning of 12 November pointed to the S&P 500 opening about 0.4% lower and the Nasdaq 100 about 0.8% lower.\n\nWhat I am doing about it:\n\n1. SPY, $300 (30%). The plain core. Proved wrong, and cut, if SPY ends a day below its 200-day average (about $731), which would say the long rise has broken.\n\n2. RSP, $300 (30%). This fund holds the same 500 companies in equal amounts, so it has far less riding on Nvidia and the other giant technology companies than SPY does. It is the main way this account differs from the benchmark: a bet that the average company keeps doing better than the giants while rates rise and the AI trade is in doubt. Proved wrong if RSP ends a day below its 50-day average (about $215), or if over the next month it trails SPY by more than 3 percentage points while technology recovers above its own 50-day average. In either case I would move it into SPY.\n\n3. XLV, $150 (15%). Health care has the strongest trend of any sector on the watchlist (up 11.3% in 60 days, above all three averages) and investors have been using it as shelter from the technology sell-off. It has already run a long way, 18% above its 200-day average, which is why this is half the size of the other two. Proved wrong if XLV falls more than 8% from the purchase price or ends a day below its 50-day average (about $174), or if a concrete change in US drug pricing or insurance policy undercuts the sector.\n\n4. Cash, about $250 (25%). The plan says cash needs a reason and an end date. The reason: within four weeks there is a likely rate increase with a real chance of a larger one, a possible change of chief executive at the index's biggest company, and that company's results. Buying everything on one morning ahead of all three is not needed. The end date: the rest goes into the market no later than the first trading day after the Fed decision of 9 December, and sooner if Nvidia's results pass and SPY is back above its 50-day average. I am leaving this in plain cash because moving it into a Treasury bill fund and back would cost about as much in fees as the interest earned over four weeks.\n\nI considered bank and consumer staples funds, which are also rising, but RSP already holds them and a first portfolio does not need more than three lines. I considered waiting a day because of the weak futures; a 0.4% lower open is a slightly better price, not a reason to stay out. Weekly jobless claims were due after this was written and are not reflected here.\n\nThis is the first decision of the month but there is no earlier month on the books, so there is no monthly review; the first is due at the start of December.",
+  "risks": "If technology and chip stocks rebound sharply, for example on good Nvidia results or a quick settlement of its leadership question, SPY will beat this account because RSP, XLV and cash all hold less technology. Health care has risen a lot in a short time and could give back several percent quickly if the money sheltering there leaves. A rate increase larger than expected, or the 10-year yield moving well above 5%, would likely pull down everything held here, and smaller companies inside RSP are more sensitive to borrowing costs than the giants. Holding 25% in cash loses ground to the benchmark if the market simply rises from here. Prices are from the close of 11 November; the orders fill at today's open, which may differ.",
+  "strategy_change": "",
+  "orders": [
+    {
+      "side": "BUY",
+      "symbol": "SPY",
+      "usd": 300,
+      "reason": "Broad core holding; the long rise is intact with the price about 4% above its 200-day average."
+    },
+    {
+      "side": "BUY",
+      "symbol": "RSP",
+      "usd": 300,
+      "reason": "Same 500 companies in equal amounts, so much less depends on Nvidia and giant technology stocks; above all its averages and leading SPY over the past month."
+    },
+    {
+      "side": "BUY",
+      "symbol": "XLV",
+      "usd": 150,
+      "reason": "Strongest sector trend and a shelter from the technology sell-off; kept to half size because it has already risen a long way."
+    }
+  ],
+  "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html",
+    "https://cappnotes.substack.com/p/closing-look-tuesday-november-10",
+    "https://stockanalysis.com/news/nasdaq-100-rallies-after-ai-selloff-nvidia-falls/",
+    "https://fourweekmba.com/ai-nvidia-board-opens-independent-probe-9-days-before-results/",
+    "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+  ]
+}
