@@ -110,9 +110,17 @@ class LiveProvider:
         if res.get("meta", {}).get("currency") not in (None, "USD"):
             raise RuntimeError("not a US dollar listing")
         quote = res["indicators"]["quote"][0]
+        stamps = res.get("timestamp") or []
+        meta = res.get("meta", {})
         bars = []
-        for i, ts in enumerate(res.get("timestamp") or []):
+        for i, ts in enumerate(stamps):
             o, c = quote["open"][i], quote["close"][i]
+            if c is None and i == len(stamps) - 1 and meta.get("regularMarketPrice") and meta.get("regularMarketTime"):
+                # Yahoo sometimes leaves the newest close empty after hours; the last regular trade is that close.
+                same_day = (datetime.fromtimestamp(meta["regularMarketTime"], NY).date()
+                            == datetime.fromtimestamp(ts, NY).date())
+                if same_day:
+                    c = meta["regularMarketPrice"]
             if o is None or c is None or o <= 0 or c <= 0:
                 continue
             date = datetime.fromtimestamp(ts, NY).strftime("%Y-%m-%d")

@@ -1,18 +1,4 @@
 {
-  "stocks": [
-    {
-      "date": "2026-11-10",
-      "equity": 1000.0,
-      "benchmark": 1000.0,
-      "cash": 1000.0
-    }
-  ],
-  "crypto": [
-    {
-      "date": "2026-11-11",
-      "equity": 1000.0,
-      "benchmark": 1000.0,
-      "cash": 1000.0
-    }
-  ]
+  "stocks": [],
+  "crypto": []
 }

@@ -1,35 +1,31 @@
 {
   "version": 1,
-  "created_utc": "2026-11-12T01:19:27+00:00",
+  "created_utc": "2026-11-12T01:22:26+00:00",
   "decisions_seen": {},
   "portfolios": {
     "stocks": {
       "starting_cash": 1000,
       "cash": 1000.0,
       "positions": {},
-      "last_bar_date": "2026-11-10",
+      "last_bar_date": null,
       "benchmark": {
         "symbol": "SPY",
-        "units": 1.3334756011159719,
-        "start_date": "2026-11-10",
-        "start_price": 749.9199829101562
-      },
-      "equity": 1000.0,
-      "benchmark_value": 1000.0
+        "units": null,
+        "start_date": null,
+        "start_price": null
+      }
     },
     "crypto": {
       "starting_cash": 1000,
       "cash": 1000.0,
       "positions": {},
-      "last_bar_date": "2026-11-11",
+      "last_bar_date": null,
       "benchmark": {
         "symbol": "BTC",
-        "units": 0.013526742301897139,
-        "start_date": "2026-11-11",
-        "start_price": 73927.63
-      },
-      "equity": 1000.0,
-      "benchmark_value": 1000.0
+        "units": null,
+        "start_date": null,
+        "start_price": null
+      }
     }
   }
 }
