@@ -1,7 +1,201 @@
 {
-  "as_of_utc": null,
+  "as_of_utc": "2026-11-12T01:22:36+00:00",
   "prices": {
-    "stocks": {},
-    "crypto": {}
+    "stocks": {
+      "DIA": {
+        "date": "2026-11-11",
+        "close": 524.44,
+        "change_pct": 0.52,
+        "source": "Yahoo Finance daily chart"
+      },
+      "EEM": {
+        "date": "2026-11-11",
+        "close": 62.04,
+        "change_pct": 2.43,
+        "source": "Yahoo Finance daily chart"
+      },
+      "EFA": {
+        "date": "2026-11-11",
+        "close": 104.66,
+        "change_pct": 0.29,
+        "source": "Yahoo Finance daily chart"
+      },
+      "GLD": {
+        "date": "2026-11-11",
+        "close": 365.17,
+        "change_pct": -1.13,
+        "source": "Yahoo Finance daily chart"
+      },
+      "IEF": {
+        "date": "2026-11-11",
+        "close": 90.94,
+        "change_pct": -0.08,
+        "source": "Yahoo Finance daily chart"
+      },
+      "IWM": {
+        "date": "2026-11-11",
+        "close": 283.09,
+        "change_pct": 0.89,
+        "source": "Yahoo Finance daily chart"
+      },
+      "QQQ": {
+        "date": "2026-11-11",
+        "close": 690.38,
+        "change_pct": 2.31,
+        "source": "Yahoo Finance daily chart"
+      },
+      "RSP": {
+        "date": "2026-11-11",
+        "close": 222.65,
+        "change_pct": 0.8,
+        "source": "Yahoo Finance daily chart"
+      },
+      "SGOV": {
+        "date": "2026-11-11",
+        "close": 100.52,
+        "change_pct": -0.01,
+        "source": "Yahoo Finance daily chart"
+      },
+      "SMH": {
+        "date": "2026-11-11",
+        "close": 506.96,
+        "change_pct": 4.82,
+        "source": "Yahoo Finance daily chart"
+      },
+      "SPY": {
+        "date": "2026-11-11",
+        "close": 759.81,
+        "change_pct": 1.32,
+        "source": "Yahoo Finance daily chart"
+      },
+      "TLT": {
+        "date": "2026-11-11",
+        "close": 80.92,
+        "change_pct": 0.05,
+        "source": "Yahoo Finance daily chart"
+      },
+      "VTI": {
+        "date": "2026-11-11",
+        "close": 374.25,
+        "change_pct": 1.27,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLB": {
+        "date": "2026-11-11",
+        "close": 53.02,
+        "change_pct": 0.32,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLC": {
+        "date": "2026-11-11",
+        "close": 108.6,
+        "change_pct": 0.78,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLE": {
+        "date": "2026-11-11",
+        "close": 63.37,
+        "change_pct": 1.86,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLF": {
+        "date": "2026-11-11",
+        "close": 58.63,
+        "change_pct": 0.58,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLI": {
+        "date": "2026-11-11",
+        "close": 170.97,
+        "change_pct": 1.33,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLK": {
+        "date": "2026-11-11",
+        "close": 174.36,
+        "change_pct": 3.23,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLP": {
+        "date": "2026-11-11",
+        "close": 91.45,
+        "change_pct": 0.46,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLRE": {
+        "date": "2026-11-11",
+        "close": 44.59,
+        "change_pct": 0.02,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLU": {
+        "date": "2026-11-11",
+        "close": 43.82,
+        "change_pct": 0.21,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLV": {
+        "date": "2026-11-11",
+        "close": 188.95,
+        "change_pct": 0.04,
+        "source": "Yahoo Finance daily chart"
+      },
+      "XLY": {
+        "date": "2026-11-11",
+        "close": 120.99,
+        "change_pct": -0.05,
+        "source": "Yahoo Finance daily chart"
+      }
+    },
+    "crypto": {
+      "ADA": {
+        "date": "2026-11-11",
+        "close": 0.17424,
+        "change_pct": 0.18,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "AVAX": {
+        "date": "2026-11-11",
+        "close": 8.507,
+        "change_pct": 1.67,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "BTC": {
+        "date": "2026-11-11",
+        "close": 73927.63,
+        "change_pct": 0.31,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "DOGE": {
+        "date": "2026-11-11",
+        "close": 0.06744,
+        "change_pct": -0.74,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "ETH": {
+        "date": "2026-11-11",
+        "close": 2053.73,
+        "change_pct": 0.15,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "LINK": {
+        "date": "2026-11-11",
+        "close": 10.178,
+        "change_pct": -1.01,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "SOL": {
+        "date": "2026-11-11",
+        "close": 83.18,
+        "change_pct": -0.07,
+        "source": "Coinbase Exchange daily candles"
+      },
+      "XRP": {
+        "date": "2026-11-11",
+        "close": 1.0511,
+        "change_pct": -0.38,
+        "source": "Coinbase Exchange daily candles"
+      }
+    }
   }
 }
