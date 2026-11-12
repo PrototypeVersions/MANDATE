@@ -1,0 +1,15 @@
+{
+  "id": "stocks-20261112-1318",
+  "portfolio": "stocks",
+  "decided_at_utc": "2026-11-12T13:18:00Z",
+  "model": "Claude",
+  "summary": "One plain sentence saying what was decided and why.",
+  "thesis": "The reasoning in full: what the market is doing, what the evidence is, why these orders follow from the plan, and what would prove the view wrong.",
+  "risks": "What could go wrong with this decision.",
+  "strategy_change": "",
+  "orders": [
+    {"side": "BUY", "symbol": "SPY", "usd": 300, "reason": "Short reason for this order."},
+    {"side": "SELL", "symbol": "XLE", "pct": 100, "reason": "pct sells a share of the holding; usd sells a dollar amount."}
+  ],
+  "sources": ["https://example.com/article"]
+}

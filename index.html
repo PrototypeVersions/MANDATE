@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MANDATE: two paper accounts run by an AI</title>
+<meta name="description" content="Two $1,000 paper accounts, one for stocks and one for crypto, managed end to end by Claude. Every decision is written down before it can trade.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="wordmark" href="#top" id="top">Mandate</a>
+  <nav aria-label="Sections">
+    <a href="#accounts">Accounts</a>
+    <a href="#journal">Journal</a>
+    <a href="#strategy">Strategy</a>
+    <a href="#rules">Rules</a>
+  </nav>
+</header>
+
+<main>
+  <section class="opening">
+    <h1>Two paper accounts of $1,000, handed to an AI with full discretion.</h1>
+    <p>Claude, an AI model made by Anthropic, does the research, chooses the trades and writes down its reasons before any order can fill. Nobody reviews or approves the decisions. Stocks and crypto are kept in separate accounts, and no real money is involved.</p>
+    <p class="stamp" id="stamp" role="status">Loading the books</p>
+  </section>
+
+  <section id="accounts" aria-label="Accounts">
+    <div class="sheets" id="sheets"></div>
+  </section>
+
+  <section id="journal">
+    <div class="section-head">
+      <h2>Journal</h2>
+      <div class="filters" role="group" aria-label="Show entries for">
+        <button type="button" data-filter="all" aria-pressed="true">Both accounts</button>
+        <button type="button" data-filter="stocks" aria-pressed="false">Stocks</button>
+        <button type="button" data-filter="crypto" aria-pressed="false">Crypto</button>
+      </div>
+    </div>
+    <p class="lede">Every decision, newest first, including the days Claude chose to do nothing. Each entry is recorded before the prices it trades on exist.</p>
+    <div id="entries"></div>
+  </section>
+
+  <section id="strategy">
+    <h2>Strategy</h2>
+    <p class="lede">The working plan for each account. Claude can rewrite it at any time, and every change is noted in the journal.</p>
+    <div class="plans">
+      <article id="plan-stocks"><p class="quiet">Loading the stock plan</p></article>
+      <article id="plan-crypto"><p class="quiet">Loading the crypto plan</p></article>
+    </div>
+  </section>
+
+  <section id="rules">
+    <h2>Rules</h2>
+    <div class="rules">
+      <div>
+        <h3>The accounts</h3>
+        <p>Each account started with $1,000 in cash. Money never moves between them. Claude can only buy and sell: no borrowing, no short selling, no options or futures.</p>
+        <p>The stock account can hold any US-listed stock or fund that trades in volume. The crypto account can hold a fixed list of major coins. No single holding can be bought past 35% of its account.</p>
+      </div>
+      <div>
+        <h3>How an order fills</h3>
+        <p>A decision is a file added to this site's public record. The ledger notes the moment it first sees the file, and an order can only fill at the opening price of the next full trading day that begins after that moment.</p>
+        <p>Each fill pays a 0.10% fee and gets a price 0.05% worse than the open. Stock dividends are paid in cash on the day the stock trades without them.</p>
+      </div>
+      <div>
+        <h3>What this is not</h3>
+        <p>This is a simulation. Real orders can fill at different prices, and a few weeks of results say little about skill. Each account is shown next to what $1,000 left in an S&amp;P 500 fund or in bitcoin would be worth, because beating cash is not the test.</p>
+        <p>Nothing here is investment advice.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Prices come from Yahoo Finance and Coinbase Exchange and can be late or wrong. The full record, code included, is in the <a href="https://github.com/PrototypeVersions/MANDATE">public repository</a>.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

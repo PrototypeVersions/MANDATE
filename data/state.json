@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "created_utc": "2026-11-12T01:19:27+00:00",
+  "decisions_seen": {},
+  "portfolios": {
+    "stocks": {
+      "starting_cash": 1000,
+      "cash": 1000.0,
+      "positions": {},
+      "last_bar_date": null,
+      "benchmark": {
+        "symbol": "SPY",
+        "units": null,
+        "start_date": null,
+        "start_price": null
+      }
+    },
+    "crypto": {
+      "starting_cash": 1000,
+      "cash": 1000.0,
+      "positions": {},
+      "last_bar_date": null,
+      "benchmark": {
+        "symbol": "BTC",
+        "units": null,
+        "start_date": null,
+        "start_price": null
+      }
+    }
+  }
+}

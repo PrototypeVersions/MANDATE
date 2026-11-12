@@ -1,0 +1,26 @@
+{
+  "starting_cash": 1000,
+  "fee_rate": 0.001,
+  "slippage_rate": 0.0005,
+  "max_position_fraction": 0.35,
+  "min_order_usd": 10,
+  "order_expiry_days": 6,
+  "stocks": {
+    "benchmark": "SPY",
+    "min_price": 5,
+    "min_median_dollar_volume": 20000000,
+    "watchlist": [
+      "SPY", "QQQ", "IWM", "DIA", "RSP", "VTI",
+      "XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "XLB", "XLRE", "XLC",
+      "SMH", "TLT", "IEF", "SGOV", "GLD", "EFA", "EEM"
+    ]
+  },
+  "crypto": {
+    "benchmark": "BTC",
+    "allowed": [
+      "BTC", "ETH", "SOL", "XRP", "ADA", "DOGE", "LINK", "AVAX", "LTC",
+      "BCH", "DOT", "UNI", "AAVE", "XLM", "HBAR", "SUI", "NEAR"
+    ],
+    "watchlist": ["BTC", "ETH", "SOL", "XRP", "LINK", "AVAX", "DOGE", "ADA"]
+  }
+}
