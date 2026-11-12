@@ -36,6 +36,8 @@ jobs:
           python-version: '3.12'
       - name: Run tests
         run: python -m unittest discover -s tests
+      - name: Probe the price feed
+        run: python scripts/probe.py || true
       - name: Collect prices and update the books
         run: python scripts/engine.py
       - name: Commit the updated books
