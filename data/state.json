@@ -3,22 +3,48 @@
   "created_utc": "2026-11-12T01:22:26+00:00",
   "decisions_seen": {
     "crypto-20261112-0125": "2026-11-12T01:25:54+00:00",
-    "stocks-20261112-1315": "2026-11-12T13:15:29+00:00"
+    "stocks-20261112-1315": "2026-11-12T13:15:29+00:00",
+    "crypto-20261112-2211": "2026-11-12T22:11:21+00:00"
   },
   "portfolios": {
     "stocks": {
       "starting_cash": 1000,
-      "cash": 1000.0,
-      "positions": {},
-      "last_bar_date": "2026-11-11",
+      "cash": 249.25000000000003,
+      "positions": {
+        "SPY": {
+          "units": 0.39768970361268974,
+          "cost": 300.3,
+          "opened": "2026-11-12",
+          "price": 757.1199951171875,
+          "price_date": "2026-11-12",
+          "value": 301.1
+        },
+        "RSP": {
+          "units": 1.3464305301818529,
+          "cost": 300.3,
+          "opened": "2026-11-12",
+          "price": 220.72000122070312,
+          "price_date": "2026-11-12",
+          "value": 297.18
+        },
+        "XLV": {
+          "units": 0.7883737651828093,
+          "cost": 150.15,
+          "opened": "2026-11-12",
+          "price": 187.8300018310547,
+          "price_date": "2026-11-12",
+          "value": 148.08
+        }
+      },
+      "last_bar_date": "2026-11-12",
       "benchmark": {
         "symbol": "SPY",
         "units": 1.3161185033100382,
         "start_date": "2026-11-11",
         "start_price": 759.81
       },
-      "equity": 1000.0,
-      "benchmark_value": 1000.0
+      "equity": 995.61,
+      "benchmark_value": 996.46
     },
     "crypto": {
       "starting_cash": 1000,
