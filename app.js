@@ -1,6 +1,8 @@
 (() => {
   "use strict";
   const NAMES = { stocks: "Stocks account", crypto: "Crypto account" };
+  const WAITING = { stocks: "Orders waiting for the next market open", crypto: "Orders waiting for the next day to start (midnight UTC)" };
+  const VALUED = { stocks: "Valued at the market close on", crypto: "Valued at the last price of" };
   const BENCH = { stocks: "an S&P 500 fund (SPY)", crypto: "bitcoin" };
   const $ = (sel) => document.querySelector(sel);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -20,7 +22,7 @@
   }
 
   function chart(points) {
-    if (points.length < 2) return '<p class="quiet">The chart begins once two trading days are on the books.</p>';
+    if (points.length < 2) return '<p class="quiet">The chart begins once two days are on the books.</p>';
     const W = 560, H = 190, L = 4, R = 52, T = 10, B = 22;
     const vals = points.flatMap((p) => [p.equity, p.benchmark]);
     let lo = Math.min(...vals), hi = Math.max(...vals);
@@ -70,7 +72,7 @@
     el.className = "sheet";
     const started = acct.benchmark.start_date;
     if (!started) {
-      el.innerHTML = `<h2>${NAMES[name]}</h2><p class="worth">${money(acct.cash)}</p><p class="versus">All in cash. The books open at the first market close after launch.</p>`;
+      el.innerHTML = `<h2>${NAMES[name]}</h2><p class="worth">${money(acct.cash)}</p><p class="versus">All in cash. The first valuation is on its way.</p>`;
       return el;
     }
     const equity = acct.equity, start = acct.starting_cash, bench = acct.benchmark_value;
@@ -84,15 +86,15 @@
       <h2>${NAMES[name]}</h2>
       <p class="worth">${money(equity)}</p>
       <p class="since"><span class="${tone(gain)}">${signed(gain)} (${pct(gain / start * 100)})</span> since ${esc(day(started))}</p>
-      <p class="versus">$1,000 left in ${BENCH[name]} would be ${money(bench)}, so the account is <span class="${tone(gap)}">${gap >= 0 ? "ahead" : "behind"} by ${money(Math.abs(gap))}</span>.</p>
+      <p class="versus">$1,000 left in ${BENCH[name]} would be ${money(bench)}, so the account is ${Math.abs(gap) < 0.005 ? "level with it" : `<span class="${tone(gap)}">${gap > 0 ? "ahead" : "behind"} by ${money(Math.abs(gap))}</span>`}.</p>
       <div class="chart">${chart(points)}</div>
-      <p class="key"><span>This account</span><span class="b">Benchmark</span><span class="readout" aria-live="polite"></span></p>
+      ${points.length > 1 ? `<p class="key"><span>This account</span><span class="b">Benchmark</span><span class="readout" aria-live="polite"></span></p>` : ""}
       <div class="table-wrap"><table>
         <thead><tr><th>Holding</th><th>Units</th><th>Price</th><th>Value</th><th>Share</th><th>Gain</th></tr></thead>
         <tbody>${rows}<tr><td class="asset">Cash</td><td></td><td></td><td>${money(acct.cash)}</td><td>${(acct.cash / equity * 100).toFixed(1)}%</td><td></td></tr></tbody>
       </table></div>
-      ${pending.length ? `<div class="waiting"><h3>Orders waiting for the next open</h3><ul>${pending.map((o) => `<li>${orderText(o)}</li>`).join("")}</ul></div>` : ""}
-      <p class="versus">Valued at the close on ${esc(day(acct.last_bar_date))}.</p>`;
+      ${pending.length ? `<div class="waiting"><h3>${WAITING[name]}</h3><ul>${pending.map((o) => `<li>${orderText(o)}</li>`).join("")}</ul></div>` : ""}
+      <p class="versus">${VALUED[name]} ${esc(day(acct.last_bar_date))}${name === "crypto" ? " (UTC)" : ""}.</p>`;
     wireChart(el, points);
     return el;
   }
@@ -102,11 +104,20 @@
     return `${o.side === "BUY" ? "Buy" : "Sell"} ${size}${esc(o.symbol)}`;
   }
 
-  function orderLine(o) {
-    let state = "waiting for the next open";
+  function waitingText(entry) {
+    if (entry.portfolio === "stocks") return "waiting for the next market open";
+    const seen = new Date(entry.first_seen_utc);
+    const fillAt = new Date(Date.UTC(seen.getUTCFullYear(), seen.getUTCMonth(), seen.getUTCDate() + 1));
+    if (fillAt <= new Date()) return "filled at midnight UTC, waiting to be entered in the books";
+    const when = fillAt.toLocaleString("en-US", { weekday: "long", hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+    return `fills ${when} (midnight UTC), when the next day's first price is set`;
+  }
+
+  function orderLine(o, entry) {
+    let state = waitingText(entry);
     if (o.status === "filled") state = `filled ${day(o.fill.date)} at ${price(o.fill.price)} for ${money(o.fill.usd)}` + (o.fill.realized_pnl != null ? `, ${o.fill.realized_pnl >= 0 ? "a gain" : "a loss"} of ${money(Math.abs(o.fill.realized_pnl))}` : "");
     if (o.status === "rejected") state = "not filled: " + (o.note || "rejected");
-    if (o.status === "expired") state = "expired: " + (o.note || "no fill");
+    if (o.status === "expired") state = "expired without filling: " + (o.note || "no price was available");
     const note = o.status === "filled" && o.note ? ` (${esc(o.note)})` : "";
     return `<li><strong>${orderText(o)}</strong> <span class="state">${esc(state)}${note}</span>${o.reason ? `<span class="why">${esc(o.reason)}</span>` : ""}</li>`;
   }
@@ -117,7 +128,7 @@
     const box = $("#entries");
     const list = journal.filter((e) => e.portfolio && (filter === "all" || e.portfolio === filter)).reverse();
     if (!list.length) {
-      box.innerHTML = `<p class="empty">No decisions on the books yet. Stock decisions arrive on weekday mornings before the US market opens, and crypto decisions arrive every afternoon, Central time.</p>`;
+      box.innerHTML = `<p class="empty">No decisions on the books yet. Stock decisions arrive on weekday mornings before the US market opens. Crypto decisions arrive every afternoon, US Central time.</p>`;
       return;
     }
     box.innerHTML = list.map((e) => `
@@ -125,7 +136,7 @@
         <p class="when"><strong>${esc(day(e.first_seen_utc))}</strong>${NAMES[e.portfolio].replace(" account", "")}, ${esc(clock(e.first_seen_utc))}</p>
         <div class="body">
           <h3>${esc(e.summary)}</h3>
-          ${e.orders.length ? `<ul class="orders">${e.orders.map(orderLine).join("")}</ul>` : `<ul class="orders"><li><strong>No trades</strong></li></ul>`}
+          ${e.orders.length ? `<ul class="orders">${e.orders.map((o) => orderLine(o, e)).join("")}</ul>` : `<ul class="orders"><li><strong>No trades</strong></li></ul>`}
           ${e.strategy_change ? `<div class="change"><p><strong>Strategy change.</strong> ${esc(e.strategy_change)}</p></div>` : ""}
           <details><summary>Reasoning and sources</summary>
             ${paras(e.thesis)}
@@ -166,7 +177,7 @@
     }
     const sheets = $("#sheets");
     for (const name of ["stocks", "crypto"]) sheets.append(sheet(name, state.portfolios[name], history[name] || [], journal));
-    if (!status.last_run_utc) stamp.textContent = "The books open at the first market close after launch.";
+    if (!status.last_run_utc) stamp.textContent = "The first valuation is on its way.";
     else {
       stamp.textContent = `Books last updated ${day(status.last_run_utc)} at ${clock(status.last_run_utc)}.` + (status.ok ? "" : " Some prices could not be fetched on that run, so figures may be a day behind.");
       stamp.classList.toggle("problem", !status.ok);

@@ -7,7 +7,7 @@ Site: https://prototypeversions.github.io/MANDATE/
 ## How it works
 
 - **Decisions.** On a schedule, Claude researches the market and adds a decision file to `decisions/inbox/`: stocks on weekday mornings before the US open, crypto every afternoon (Central time). A decision can hold several orders or none.
-- **The books.** A GitHub Actions workflow (`.github/workflows/ledger.yml`) runs `scripts/engine.py` several times a day. It collects daily prices, records new decisions with the time it first saw them, fills orders at the next full day's opening price, and values both accounts against their benchmarks.
+- **The books.** A GitHub Actions workflow (`.github/workflows/ledger.yml`) runs `scripts/engine.py` several times a day. It collects daily prices, records new decisions with the time it first saw them, fills stock orders at the next market open and crypto orders at the first price of the next UTC day, and values both accounts against their benchmarks.
 - **The plan.** `strategy/stocks.md` and `strategy/crypto.md` hold the current plan for each account. Claude can rewrite them, and each change is noted in the journal.
 - **The site.** `index.html` reads the JSON files in `data/` and shows the accounts, the journal and the plan.
 

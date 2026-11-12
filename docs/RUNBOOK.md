@@ -10,6 +10,8 @@ Each scheduled run manages one account, `stocks` or `crypto`. Work only on that 
 6. Run `python3 scripts/check_decision.py decisions/inbox/<file>.json` and `python3 -m unittest discover -s tests`. Fix anything they report.
 7. Commit and push straight to `main`. If the push is rejected because `main` moved, rebase onto it and push again.
 
+Wording: everything written here is read by the public on the site, so write for someone who does not trade. Crypto trades around the clock and has no market open or close; say "the end of the UTC day" or "midnight UTC" for the daily price, and "the last price of 11 November" in place of "closed". Avoid jargon such as "bar", "candle" or "run".
+
 Never edit anything under `data/`, never change or delete an earlier decision file, and never change the money rules in `config/settings.json` (starting cash, fee, slippage, limits).
 
 Timing: stock decisions must be pushed before 9:30 a.m. New York time to fill at that day's open. Crypto decisions pushed before 00:00 UTC fill at the next UTC day's open.

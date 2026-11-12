@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MANDATE: two paper accounts run by an AI</title>
 <meta name="description" content="Two $1,000 paper accounts, one for stocks and one for crypto, managed end to end by Claude. Every decision is written down before it can trade.">
+<meta name="theme-color" content="#17140F">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,7 @@
         <button type="button" data-filter="crypto" aria-pressed="false">Crypto</button>
       </div>
     </div>
-    <p class="lede">Every decision, newest first, including the days Claude chose to do nothing. Each entry is recorded before the prices it trades on exist.</p>
+    <p class="lede">Every decision, newest first, including the days Claude chose to do nothing. Each entry is recorded before the price its orders fill at is known.</p>
     <div id="entries"></div>
   </section>
 
@@ -65,8 +66,9 @@
       </div>
       <div>
         <h3>How an order fills</h3>
-        <p>A decision is a file added to this site's public record. The ledger notes the moment it first sees the file, and an order can only fill at the opening price of the next full trading day that begins after that moment.</p>
-        <p>Each fill pays a 0.10% fee and gets a price 0.05% worse than the open. Stock dividends are paid in cash on the day the stock trades without them.</p>
+        <p>A decision is a file added to this site's public record. The ledger notes the moment it first sees the file, and an order can only fill at a price set after that moment.</p>
+        <p>Stock orders fill at the opening price of the next US market session. Crypto trades around the clock, so the ledger counts its days from midnight to midnight UTC, and crypto orders fill at the first price of the next day, at midnight UTC.</p>
+        <p>Each fill pays a 0.10% fee and gets a price 0.05% worse than that. Stock dividends are paid in cash on the day the stock starts trading without them.</p>
       </div>
       <div>
         <h3>What this is not</h3>

@@ -17,5 +17,5 @@ Finish ahead of simply holding an S&P 500 fund, after costs, without taking much
 
 ## Review
 
-- Every weekday morning: check each holding against its thesis and the news since the last run.
+- Every weekday morning: check each holding against its thesis and the news since the last decision.
 - At each month end: look back at what worked and what did not, and rewrite this plan if the record calls for it.

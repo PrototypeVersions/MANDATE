@@ -447,7 +447,7 @@ def run_cycle(root: Path, now: datetime, provider) -> dict:
         limit = timedelta(days=settings["order_expiry_days"])
         for entry, order in pending_orders(journal, portfolio):
             if now - parse_iso(entry["first_seen_utc"]) > limit:
-                order.update(status="expired", note="no price bar became available in time")
+                order.update(status="expired", note="no price became available in time")
 
     status = {"last_run_utc": iso(now), "ok": not errors, "errors": errors[:40], "warnings": warnings[:40],
               "decisions_recorded": len(state["decisions_seen"]), "new_decisions_this_run": new_decisions}

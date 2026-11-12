@@ -1,28 +1,16 @@
 :root {
-  --paper: #EEF1EC;
-  --sheet: #F9FBF7;
-  --ink: #14251F;
-  --muted: #55665E;
-  --rule: #C7CFC6;
-  --gain: #1C6A4D;
-  --loss: #9B2D30;
-  --brass: #8A6718;
-  --margin-rule: rgba(155, 45, 48, .38);
+  color-scheme: dark;
+  --paper: #17140F;
+  --sheet: #211C14;
+  --ink: #F3EBDD;
+  --muted: #A89F8E;
+  --rule: #3A3327;
+  --gain: #8FD694;
+  --loss: #F08A6E;
+  --brass: #E2B450;
+  --margin-rule: rgba(226, 180, 80, .45);
   --serif: "Young Serif", Georgia, serif;
   --sans: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #13201B;
-    --sheet: #1A2B24;
-    --ink: #E7EDE7;
-    --muted: #9FB0A7;
-    --rule: #31453C;
-    --gain: #74C7A0;
-    --loss: #E79590;
-    --brass: #D6B766;
-    --margin-rule: rgba(231, 149, 144, .32);
-  }
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
