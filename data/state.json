@@ -50,7 +50,7 @@
       "starting_cash": 1000,
       "cash": 1000.0,
       "positions": {},
-      "last_bar_date": "2026-11-11",
+      "last_bar_date": "2026-11-12",
       "benchmark": {
         "symbol": "BTC",
         "units": 0.013526742301897139,
@@ -58,7 +58,7 @@
         "start_price": 73927.63
       },
       "equity": 1000.0,
-      "benchmark_value": 1000.0
+      "benchmark_value": 965.4
     }
   }
 }
