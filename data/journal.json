@@ -20,8 +20,15 @@
         "side": "BUY",
         "symbol": "BTC",
         "reason": "Starter anchor position, about 25% of the account, at the 200-day average while the shorter trend is still down.",
-        "status": "pending",
-        "usd": 250.0
+        "status": "filled",
+        "usd": 250.0,
+        "fill": {
+          "date": "2026-11-13",
+          "price": 71405.58494999999,
+          "units": 0.0035011267000341273,
+          "usd": 250.0,
+          "fee": 0.25
+        }
       }
     ],
     "first_seen_utc": "2026-11-12T01:25:54+00:00",

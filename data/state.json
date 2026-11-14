@@ -50,17 +50,26 @@
     },
     "crypto": {
       "starting_cash": 1000,
-      "cash": 1000.0,
-      "positions": {},
-      "last_bar_date": "2026-11-12",
+      "cash": 749.75,
+      "positions": {
+        "BTC": {
+          "units": 0.0035011267000341273,
+          "cost": 250.25,
+          "opened": "2026-11-13",
+          "price": 68236.54,
+          "price_date": "2026-11-13",
+          "value": 238.9
+        }
+      },
+      "last_bar_date": "2026-11-13",
       "benchmark": {
         "symbol": "BTC",
         "units": 0.013526742301897139,
         "start_date": "2026-11-11",
         "start_price": 73927.63
       },
-      "equity": 1000.0,
-      "benchmark_value": 965.4
+      "equity": 988.65,
+      "benchmark_value": 923.02
     }
   }
 }
