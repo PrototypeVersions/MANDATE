@@ -162,8 +162,16 @@
         "side": "SELL",
         "symbol": "BTC",
         "reason": "Bitcoin broke below $72,000 and the August low near $69,300, the conditions set yesterday for selling; the trend is down on every measure in the plan.",
-        "status": "pending",
-        "pct": 100.0
+        "status": "filled",
+        "pct": 100.0,
+        "fill": {
+          "date": "2026-11-14",
+          "price": 68202.42173,
+          "units": 0.0035011267000341273,
+          "usd": 238.79,
+          "fee": 0.2388,
+          "realized_pnl": -11.7
+        }
       }
     ],
     "first_seen_utc": "2026-11-13T22:18:45+00:00",
