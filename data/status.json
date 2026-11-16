@@ -1,8 +1,8 @@
 {
-  "last_run_utc": "2026-11-16T11:59:30+00:00",
+  "last_run_utc": "2026-11-16T13:16:02+00:00",
   "ok": true,
   "errors": [],
   "warnings": [],
-  "decisions_recorded": 7,
-  "new_decisions_this_run": 0
+  "decisions_recorded": 8,
+  "new_decisions_this_run": 1
 }
