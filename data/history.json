@@ -55,6 +55,12 @@
       "equity": 988.3,
       "benchmark": 883.5,
       "cash": 988.3
+    },
+    {
+      "date": "2026-11-16",
+      "equity": 988.3,
+      "benchmark": 876.76,
+      "cash": 988.3
     }
   ]
 }
