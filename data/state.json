@@ -24,36 +24,36 @@
           "units": 0.39768970361268974,
           "cost": 300.3,
           "opened": "2026-11-12",
-          "price": 732.4400024414062,
-          "price_date": "2026-11-17",
-          "value": 291.28
+          "price": 730.2000122070312,
+          "price_date": "2026-11-18",
+          "value": 290.39
         },
         "RSP": {
           "units": 1.3464305301818529,
           "cost": 300.3,
           "opened": "2026-11-12",
-          "price": 215.75999450683594,
-          "price_date": "2026-11-17",
-          "value": 290.51
+          "price": 215.42999267578125,
+          "price_date": "2026-11-18",
+          "value": 290.06
         },
         "XLV": {
           "units": 0.7883737651828093,
           "cost": 150.15,
           "opened": "2026-11-12",
-          "price": 185.24000549316406,
-          "price_date": "2026-11-17",
-          "value": 146.04
+          "price": 181.14999389648438,
+          "price_date": "2026-11-18",
+          "value": 142.81
         }
       },
-      "last_bar_date": "2026-11-17",
+      "last_bar_date": "2026-11-18",
       "benchmark": {
         "symbol": "SPY",
         "units": 1.3161185033100382,
         "start_date": "2026-11-11",
         "start_price": 759.81
       },
-      "equity": 977.08,
-      "benchmark_value": 963.98
+      "equity": 972.52,
+      "benchmark_value": 961.03
     },
     "crypto": {
       "starting_cash": 1000,
