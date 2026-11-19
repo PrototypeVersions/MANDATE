@@ -20,42 +20,34 @@
   "portfolios": {
     "stocks": {
       "starting_cash": 1000,
-      "cash": 249.25000000000003,
+      "cash": 542.0904838182954,
       "positions": {
-        "SPY": {
-          "units": 0.39768970361268974,
-          "cost": 300.3,
-          "opened": "2026-11-12",
-          "price": 730.2000122070312,
-          "price_date": "2026-11-18",
-          "value": 290.39
-        },
         "RSP": {
           "units": 1.3464305301818529,
           "cost": 300.3,
           "opened": "2026-11-12",
-          "price": 215.42999267578125,
-          "price_date": "2026-11-18",
-          "value": 290.06
+          "price": 211.6300048828125,
+          "price_date": "2026-11-19",
+          "value": 284.95
         },
         "XLV": {
           "units": 0.7883737651828093,
           "cost": 150.15,
           "opened": "2026-11-12",
-          "price": 181.14999389648438,
-          "price_date": "2026-11-18",
-          "value": 142.81
+          "price": 177.4600067138672,
+          "price_date": "2026-11-19",
+          "value": 139.9
         }
       },
-      "last_bar_date": "2026-11-18",
+      "last_bar_date": "2026-11-19",
       "benchmark": {
         "symbol": "SPY",
         "units": 1.3161185033100382,
         "start_date": "2026-11-11",
         "start_price": 759.81
       },
-      "equity": 972.52,
-      "benchmark_value": 961.03
+      "equity": 966.94,
+      "benchmark_value": 942.17
     },
     "crypto": {
       "starting_cash": 1000,

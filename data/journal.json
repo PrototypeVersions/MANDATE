@@ -363,8 +363,16 @@
         "side": "SELL",
         "symbol": "SPY",
         "reason": "Ended 18 November at $730.20, below its 200-day average of $732.55, the line set for selling it when it was bought.",
-        "status": "pending",
-        "pct": 100.0
+        "status": "filled",
+        "pct": 100.0,
+        "fill": {
+          "date": "2026-11-19",
+          "price": 737.09129196167,
+          "units": 0.39768970361268974,
+          "usd": 293.13,
+          "fee": 0.2931,
+          "realized_pnl": -7.46
+        }
       }
     ],
     "first_seen_utc": "2026-11-19T13:14:57+00:00",
