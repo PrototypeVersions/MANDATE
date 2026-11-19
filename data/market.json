@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-19T21:24:30+00:00",
+  "as_of_utc": "2026-11-19T22:12:10+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -64,15 +64,15 @@
       },
       "IWM": {
         "date": "2026-11-19",
-        "close": 264.20001220703125,
-        "change_pct": -2.19,
+        "close": 264.2200012207031,
+        "change_pct": -2.18,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.11,
-        "change_20d_pct": -4.51,
-        "change_60d_pct": -11.62,
-        "average_20d": 277.181001,
-        "average_50d": 278.908802,
-        "average_200d": 279.566951
+        "change_20d_pct": -4.5,
+        "change_60d_pct": -11.61,
+        "average_20d": 277.182001,
+        "average_50d": 278.909202,
+        "average_200d": 279.567051
       },
       "QQQ": {
         "date": "2026-11-19",
@@ -220,15 +220,15 @@
       },
       "XLK": {
         "date": "2026-11-19",
-        "close": 160.67999267578125,
-        "change_pct": -1.91,
+        "close": 160.69000244140625,
+        "change_pct": -1.9,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -7.53,
-        "change_20d_pct": -11.88,
-        "change_60d_pct": -12.12,
-        "average_20d": 174.1675,
-        "average_50d": 185.1872,
-        "average_200d": 171.2314
+        "change_20d_pct": -11.87,
+        "change_60d_pct": -12.11,
+        "average_20d": 174.168001,
+        "average_50d": 185.1874,
+        "average_200d": 171.23145
       },
       "XLP": {
         "date": "2026-11-19",
@@ -256,15 +256,15 @@
       },
       "XLU": {
         "date": "2026-11-19",
-        "close": 43.02000045776367,
-        "change_pct": -1.22,
+        "close": 43.0099983215332,
+        "change_pct": -1.24,
         "source": "Yahoo Finance daily chart",
-        "change_5d_pct": -1.8,
-        "change_20d_pct": 0.35,
-        "change_60d_pct": -1.13,
-        "average_20d": 43.3725,
-        "average_50d": 41.9352,
-        "average_200d": 44.339
+        "change_5d_pct": -1.83,
+        "change_20d_pct": 0.33,
+        "change_60d_pct": -1.15,
+        "average_20d": 43.372,
+        "average_50d": 41.935,
+        "average_200d": 44.33895
       },
       "XLV": {
         "date": "2026-11-19",

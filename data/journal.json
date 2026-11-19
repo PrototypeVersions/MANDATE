@@ -377,5 +377,26 @@
     ],
     "first_seen_utc": "2026-11-19T13:14:57+00:00",
     "status": "recorded"
+  },
+  {
+    "id": "crypto-20261119-2211",
+    "portfolio": "crypto",
+    "decided_at_utc": "2026-11-19T22:11:00+00:00",
+    "model": "Claude",
+    "summary": "No orders today: the account stays entirely in cash because bitcoin slipped to about $62,200 as US shares fell sharply, it remains far below all of its averages, and none of my conditions for buying back has been met.",
+    "thesis": "Where the account stands. The account is $988.30 in cash and holds no coins, about 1.2% below its $1,000 start. A plain $1,000 bitcoin holding bought on 11 November was worth $851.94 at the end of 18 November, so the account is about $136 ahead of simply holding bitcoin. All of that lead comes from having been out of the market since 14 November.\n\nWhat happened. Bitcoin's last price of 18 November on Coinbase was $62,982, down 2.9% on the day after the Federal Reserve's meeting notes pointed to more rate increases; late that day it touched about $62,060. On 19 November it recovered to near $63,800 in the European morning, then slipped again as US shares sold off: the Dow was down about 1,000 points (about 2%) by midday in New York, with the S&P 500 and Nasdaq down about 1.5%, after a short-seller report hit AMD and UnitedHealth fell. Bitcoin was near $62,240 at about 17:20 UTC, with a 24-hour low near $62,070. The stock market's fear gauge (the VIX) rose to about 28. Ether was near $1,754, solana near $73 and XRP near $0.96, all lower. The figures collected for this account confirm the broad sell-off: the S&P 500 fund ended 19 November down 2%, and the gold fund fell another 1.8%.\n\nThe trend. Using the figures collected for this account, bitcoin at about $62,200 is roughly 14% below its 20-day average ($72,704), 21% below its 50-day average ($78,578) and 14% below its 200-day average ($72,718). It is down about 19% over 20 days and 22% over 60 days. Every coin on the watch list is below all three of its own averages and down 14% to 23% over 20 days. Under the plan this is the bottom of the lowest band, which means holding little or nothing.\n\nThe background has not improved. Money kept leaving the bitcoin funds: about $240 million on 17 November, most of it from BlackRock's fund, and roughly $2 billion or more over the past couple of weeks by most counts; I could not find a reliable figure for 18 November. Markets still put a chance of about 90% or more on a Fed rate increase on 9 December, the dollar is at a 19-month high, and today's share sell-off shows investors pulling back from riskier assets generally. Bitcoin has followed shares down this month without following them up.\n\nThe case for buying, taken seriously. Fear is extreme (the Fear and Greed index is at 10, its lowest reading this month), bitcoin's 14-day momentum gauge is near 22, a level that has often come shortly before a bounce, and the price is sitting on a floor near $62,000 that held on 15 and 18 November. A third test that holds can mark a bottom. But the plan buys after the price has turned, not while it is pressing on the lows, and today's move was down again on clear news. A break below about $61,970 would open the July low near $61,765 and then $60,000. No coin outside bitcoin has news that outweighs the trend.\n\nWhat would bring me back, unchanged. I will buy bitcoin again if it ends a UTC day back above its 200-day average, now about $72,700, or earlier with a smaller amount (about 15% to 20% of the account) if it holds above $70,000 for two UTC days while the bitcoin funds take in money on most days. A lasting return above the 200-week average near $68,000 would be an early sign the fall is ending, though not enough alone to buy. A lower price by itself is not a reason to buy. This view is wrong if bitcoin rebounds quickly from the $62,000 floor, in which case the account would buy back at a higher price and give back part of its lead.",
+    "risks": "The main risk is missing a sharp rebound: fear is at its most extreme reading of the month, momentum is deeply oversold and the $62,000 floor has held twice, so a bounce of 10% or more could happen before any of my buy-back conditions is met. A slow, choppy recovery that never gives a clean signal could cost the account its lead over time. My buy-back levels are tied to averages that are still moving, so they need checking each day. Prices here come from news reports published at different times; the latest reliable reading is from about 17:20 UTC, and bitcoin can move several percent before midnight UTC.",
+    "strategy_change": "",
+    "sources": [
+      "https://cryptoticker.io/en/crypto-news-dow-drops-1000-points-bitcoin-vix/",
+      "https://thecryptobasic.com/2026/11/19/crypto-price-analysis-btc-xrp-vvv-lit-and-hype-nov-19-bitcoin-stops-30-above-its-weekend-low-as-xrp-gives-up-1/",
+      "https://blog.e8markets.com/article/bitcoin-nears-63000-as-etf-outflows-test-crypto-market-confidence",
+      "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-19-2026",
+      "https://thedailycoins.io/2026/11/crypto-market-today-2026-11-19/",
+      "https://www.goodman-macro.com/en/articles/20261119-crypto-market/"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-19T22:12:10+00:00",
+    "status": "recorded"
   }
 ]
