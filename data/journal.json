@@ -420,11 +420,42 @@
         "side": "SELL",
         "symbol": "RSP",
         "reason": "Ended 19 November at $211.63, below its 50-day average of $214.95, the line set for selling it when it was bought.",
-        "status": "pending",
-        "pct": 100.0
+        "status": "filled",
+        "pct": 100.0,
+        "fill": {
+          "date": "2026-11-20",
+          "price": 211.8840104904175,
+          "units": 1.3464305301818529,
+          "usd": 285.29,
+          "fee": 0.2853,
+          "realized_pnl": -15.3
+        }
       }
     ],
     "first_seen_utc": "2026-11-20T13:14:16+00:00",
+    "status": "recorded"
+  },
+  {
+    "id": "crypto-20261120-2211",
+    "portfolio": "crypto",
+    "decided_at_utc": "2026-11-20T22:11:00+00:00",
+    "model": "Claude",
+    "summary": "No orders today: the account stays entirely in cash because bitcoin fell below $60,000 for the first time since July, to a low of about $58,800, in a broad sell-off of technology shares, and none of my conditions for buying back has been met.",
+    "thesis": "Where the account stands. The account is $988.30 in cash and holds no coins, about 1.2% below its $1,000 start. A plain $1,000 bitcoin holding bought on 11 November was worth $837.48 at the end of 19 November, so the account is about $151 ahead of simply holding bitcoin. All of that lead comes from having been out of the market since 14 November.\n\nWhat happened. Bitcoin's last price of 19 November on Coinbase was $61,913, down 1.7% on the day. Early on 20 November it was near $61,300 to $61,500. Once US shares opened it broke down: about $61,400 at 14:40 UTC, about $59,600 an hour later, and about $59,500 at 16:52 UTC, down roughly 5.6% over 24 hours. Reported lows range from about $59,300 to $58,800, the first time below $60,000 since July. That also broke the July low near $61,765 that I named yesterday as the next level to watch. Ether fell to roughly $1,630 to $1,645, solana to about $69 and XRP to about $0.92, all down 5% to 8% on the day. Roughly $700 million of borrowed bets were forcibly closed in 24 hours, about 86% of them bets on rising prices, and some trackers put the total near $1.5 billion.\n\nWhy. Shares fell hard again: by late morning in New York the Nasdaq was down about 2.7% and the S&P 500 about 1.4%, led by chip makers and doubts about whether heavy spending on artificial intelligence will pay off. Korea's main index fell more than 5% earlier in the day. Markets now put about a 94% chance on a Federal Reserve rate increase on 9 December. Money is still leaving the US bitcoin funds, faster than before: about $306 million on 18 November and about $582 million on 19 November, the largest single-day outflow of this fall, including a record one-day outflow from BlackRock's fund. The crypto Fear and Greed index fell to 9, its lowest since February.\n\nThe trend. Using the figures collected for this account (last price of 19 November), and with bitcoin now near $59,500, it is about 17% below its 20-day average ($71,941), about 24% below its 50-day average ($78,145) and about 18% below its 200-day average ($72,635). Every other watched coin is also below all three of its averages and down 18% to 24% over 20 days. Under the plan this is the bottom of the lowest band, which means holding little or nothing.\n\nThe case for buying, taken seriously. Fear is at its most extreme reading since February, borrowed bets are being flushed out, and one analyst quoted today thinks the forced selling may be nearly done. Sharp falls like this sometimes end with a fast rebound. But the plan buys after the price has turned, not while it is breaking to new lows, and today's fall came with record withdrawals from the bitcoin funds and a worsening outlook for interest rates. Nothing about any other coin outweighs the trend.\n\nWhat would bring me back, unchanged. I will buy bitcoin again if it ends a UTC day back above its 200-day average, now about $72,600, or earlier with a smaller amount (about 15% to 20% of the account) if it holds above $70,000 for two UTC days while the bitcoin funds take in money on most days. A lasting return above $62,000, the floor that held from 14 to 19 November, together with fund inflows, would be an early sign the fall is ending, though not enough alone to buy. A lower price by itself is not a reason to buy. This view is wrong if bitcoin rebounds quickly from here, in which case the account would buy back at a higher price and give back part of its lead.",
+    "risks": "The main risk is missing a sharp rebound: fear is at its lowest since February, many borrowed bets have been cleared, and bounces after breaks like this can be fast, so bitcoin could rise 10% to 15% before any of my buy-back conditions is met. My buy-back levels are now far above the price (about 18% up to $70,000), so a slow recovery could leave the account in cash through much of a rise. Prices here come from news reports published at different times; the latest reliable reading is from about 17:00 UTC, and bitcoin can move several percent before midnight UTC.",
+    "strategy_change": "",
+    "sources": [
+      "https://bitcoinmagazine.com/markets/bitcoin-price-crashes-below-60000",
+      "https://www.gncrypto.news/news/bitcoin-falls-below-60000-as-tech-selloff-spreads/",
+      "https://www.tokenpost.com/news/investing/62217",
+      "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest",
+      "https://startupfortune.com/bitcoin-falls-below-60000-as-the-nasdaqs-ai-selloff-drags-crypto-down/",
+      "https://fortune.com/article/price-of-bitcoin-11-20-2026/",
+      "https://www.coingabbar.com/en/crypto-news-today-cftc-rules-japan-risk-anthropic-bitcoin-price",
+      "https://u.today/price-analysis/bitcoin-btc-price-analysis-for-november-20-death-cross-is-here"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-20T22:11:50+00:00",
     "status": "recorded"
   }
 ]
