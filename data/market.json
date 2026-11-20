@@ -1,16 +1,16 @@
 {
-  "as_of_utc": "2026-11-20T01:49:19+00:00",
+  "as_of_utc": "2026-11-20T02:28:27+00:00",
   "prices": {
     "stocks": {
       "DIA": {
         "date": "2026-11-19",
-        "close": 490.79,
+        "close": 490.7900085449219,
         "change_pct": -2.18,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -6.06,
         "change_20d_pct": -7.03,
         "change_60d_pct": -8.13,
-        "average_20d": 517.939498,
+        "average_20d": 517.939499,
         "average_50d": 517.430396,
         "average_200d": 507.6712
       },
@@ -28,7 +28,7 @@
       },
       "EFA": {
         "date": "2026-11-19",
-        "close": 98.78,
+        "close": 98.77999877929688,
         "change_pct": -1.48,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.03,
@@ -40,19 +40,19 @@
       },
       "GLD": {
         "date": "2026-11-19",
-        "close": 335.18,
+        "close": 335.17999267578125,
         "change_pct": -1.76,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.55,
         "change_20d_pct": -9.17,
         "change_60d_pct": -20.45,
-        "average_20d": 362.608001,
+        "average_20d": 362.608,
         "average_50d": 376.4176,
         "average_200d": 406.4239
       },
       "IEF": {
         "date": "2026-11-19",
-        "close": 90.82,
+        "close": 90.81999969482422,
         "change_pct": 0.17,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": 0.68,
@@ -64,7 +64,7 @@
       },
       "IWM": {
         "date": "2026-11-19",
-        "close": 264.22,
+        "close": 264.2200012207031,
         "change_pct": -2.18,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.11,
@@ -76,19 +76,19 @@
       },
       "QQQ": {
         "date": "2026-11-19",
-        "close": 645.04,
+        "close": 645.0399780273438,
         "change_pct": -2.19,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -6.27,
         "change_20d_pct": -8.44,
         "change_60d_pct": -9.32,
-        "average_20d": 683.328004,
+        "average_20d": 683.328003,
         "average_50d": 713.085801,
         "average_200d": 683.00375
       },
       "RSP": {
         "date": "2026-11-19",
-        "close": 211.63,
+        "close": 211.6300048828125,
         "change_pct": -1.76,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -4.12,
@@ -112,7 +112,7 @@
       },
       "SMH": {
         "date": "2026-11-19",
-        "close": 447.48,
+        "close": 447.4800109863281,
         "change_pct": -2.62,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -10.81,
@@ -124,7 +124,7 @@
       },
       "SPY": {
         "date": "2026-11-19",
-        "close": 715.87,
+        "close": 715.8699951171875,
         "change_pct": -1.96,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.45,
@@ -136,7 +136,7 @@
       },
       "TLT": {
         "date": "2026-11-19",
-        "close": 80.35,
+        "close": 80.3499984741211,
         "change_pct": 0.16,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": 0.79,
@@ -148,19 +148,19 @@
       },
       "VTI": {
         "date": "2026-11-19",
-        "close": 352.41,
+        "close": 352.4100036621094,
         "change_pct": -1.97,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.42,
         "change_20d_pct": -6.0,
         "change_60d_pct": -6.83,
         "average_20d": 369.544499,
-        "average_50d": 374.366399,
+        "average_50d": 374.3664,
         "average_200d": 361.167699
       },
       "XLB": {
         "date": "2026-11-19",
-        "close": 49.42,
+        "close": 49.41999816894531,
         "change_pct": -2.06,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.58,
@@ -184,7 +184,7 @@
       },
       "XLE": {
         "date": "2026-11-19",
-        "close": 60.89,
+        "close": 60.88999938964844,
         "change_pct": -0.65,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.35,
@@ -196,7 +196,7 @@
       },
       "XLF": {
         "date": "2026-11-19",
-        "close": 55.58,
+        "close": 55.58000183105469,
         "change_pct": -1.49,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -4.52,
@@ -208,7 +208,7 @@
       },
       "XLI": {
         "date": "2026-11-19",
-        "close": 161.36,
+        "close": 161.36000061035156,
         "change_pct": -2.0,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -4.77,
@@ -220,7 +220,7 @@
       },
       "XLK": {
         "date": "2026-11-19",
-        "close": 160.69,
+        "close": 160.69000244140625,
         "change_pct": -1.9,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -7.53,
@@ -232,13 +232,13 @@
       },
       "XLP": {
         "date": "2026-11-19",
-        "close": 89.86,
+        "close": 89.86000061035156,
         "change_pct": -1.45,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -1.32,
         "change_20d_pct": -0.14,
         "change_60d_pct": 4.16,
-        "average_20d": 90.136999,
+        "average_20d": 90.137,
         "average_50d": 86.2546,
         "average_200d": 85.0082
       },
@@ -256,7 +256,7 @@
       },
       "XLU": {
         "date": "2026-11-19",
-        "close": 43.01,
+        "close": 43.0099983215332,
         "change_pct": -1.24,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -1.83,
@@ -268,7 +268,7 @@
       },
       "XLV": {
         "date": "2026-11-19",
-        "close": 177.46,
+        "close": 177.4600067138672,
         "change_pct": -2.05,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -5.52,
@@ -280,7 +280,7 @@
       },
       "XLY": {
         "date": "2026-11-19",
-        "close": 115.88,
+        "close": 115.87999725341797,
         "change_pct": -2.79,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -3.8,
