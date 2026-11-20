@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-20T04:24:57+00:00",
+  "as_of_utc": "2026-11-20T07:14:38+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -100,7 +100,7 @@
       },
       "SGOV": {
         "date": "2026-11-19",
-        "close": 100.61,
+        "close": 100.61000061035156,
         "change_pct": 0.01,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": 0.08,
@@ -172,13 +172,13 @@
       },
       "XLC": {
         "date": "2026-11-19",
-        "close": 102.76,
+        "close": 102.76000213623047,
         "change_pct": -2.67,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -4.46,
         "change_20d_pct": -4.34,
         "change_60d_pct": -8.75,
-        "average_20d": 104.6685,
+        "average_20d": 104.668501,
         "average_50d": 108.877,
         "average_200d": 112.09665
       },
@@ -244,7 +244,7 @@
       },
       "XLRE": {
         "date": "2026-11-19",
-        "close": 42.88,
+        "close": 42.880001068115234,
         "change_pct": -1.7,
         "source": "Yahoo Finance daily chart",
         "change_5d_pct": -3.34,
