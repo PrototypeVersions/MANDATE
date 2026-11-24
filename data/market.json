@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-24T22:10:45+00:00",
+  "as_of_utc": "2026-11-24T22:58:55+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -310,11 +310,11 @@
         "change_pct": 1.59,
         "source": "Coinbase Exchange daily candles",
         "change_5d_pct": -3.39,
-        "change_20d_pct": -20.29,
+        "change_20d_pct": -20.24,
         "change_60d_pct": -33.51,
-        "average_20d": 7.64145,
-        "average_50d": 8.82202,
-        "average_200d": 7.97847
+        "average_20d": 7.6414,
+        "average_50d": 8.82244,
+        "average_200d": 7.97756
       },
       "BTC": {
         "date": "2026-11-23",
