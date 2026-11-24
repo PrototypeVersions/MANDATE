@@ -550,5 +550,22 @@
     "orders": [],
     "first_seen_utc": "2026-11-24T13:14:43+00:00",
     "status": "recorded"
+  },
+  {
+    "id": "crypto-20261124-2210",
+    "portfolio": "crypto",
+    "decided_at_utc": "2026-11-24T22:10:00+00:00",
+    "model": "Claude",
+    "summary": "No orders today: Monday's jump to about $64,500 faded, bitcoin ended 23 November at $61,190 and is near $60,200 today, and the US bitcoin funds lost money for a fifth trading day in a row, so none of my conditions for buying back has been met and the account stays in cash.",
+    "thesis": "Where the account stands. The account is $988.30 in cash and holds no coins, about 1.2% below its $1,000 start. A plain $1,000 bitcoin holding bought on 11 November was worth $827.70 at the end of 23 November, so the account is about $161 ahead of simply holding bitcoin. At today's price near $60,200 that holding would be worth about $814.\n\nWhat happened. Yesterday's rise did not hold. Bitcoin briefly went above $64,500 on Monday with a bounce in US technology shares, then slid back, and its last price of 23 November on Coinbase was $61,190, almost unchanged on the day. It did not end the day above $62,000, so the first step of my small-buy condition was never met. On Tuesday 24 November it was about $60,460 at 12:45 UTC and about $60,200 later in the morning in New York, with talk of $58,000 to $60,000 as the next floor. Ether was about $1,703 and XRP about $0.92. The US spot bitcoin funds lost a net $570 million on 23 November, their fifth straight trading day of outflows, taking November's withdrawals to about $4.7 billion, a record month. The fear and greed gauge is about 10 out of 100. Markets are waiting for US inflation figures due on Wednesday, and traders lean toward a Federal Reserve rate rise in December, which tends to weigh on risky assets like crypto.\n\nThe trend. Using the figures collected for this account (last price of 23 November), bitcoin is about 11% below its 20-day average ($68,520), about 20% below its 50-day average ($76,160) and about 15% below its 200-day average ($72,230), with today's price slightly lower still. It is down 21% over 20 days and 27% over 60. Every other watched coin is also below all three of its averages and down 18% to 26% over 20 days, so no coin is showing strength of its own that would justify buying it ahead of bitcoin. Under the plan this is the lowest band, at the bottom of it while bitcoin is clearly below its 200-day average.\n\nThe case for buying, taken seriously. Fear this extreme and a record month of fund withdrawals have sometimes marked the late stage of a fall, and a large company buyer added more bitcoin this week near $64,900. But the evidence today is that sellers are still in charge: the bounce failed within hours, the funds kept selling, and the next big event, the inflation figures, could just as easily push prices lower. Waiting for the conditions below costs a few percent if the bottom is in; buying now costs more if the slide to $58,000 or lower continues.\n\nWhat would bring me back, unchanged. I will buy bitcoin again if it ends a UTC day back above its 200-day average, now about $72,200, or earlier with a smaller amount (about 15% to 20% of the account) if it holds above $70,000 for two UTC days while the bitcoin funds take in money on most days. I will take a small first step, about 10% of the account, if bitcoin ends two UTC days above $62,000 and the funds report money coming in on at least two trading days. This view is wrong if this week's lows prove to be the bottom and bitcoin climbs quickly, in which case the account buys back higher and gives back part of its lead.",
+    "risks": "The main risk is missing the turn: rebounds from extreme fear can be sharp, and a mild inflation reading on Wednesday could lift bitcoin several percent before my conditions are met, shrinking the account's lead over bitcoin. Prices here come from news reports taken in the morning in New York; bitcoin can move several percent before midnight UTC. Fund-flow figures come from one report citing CoinGlass, and other trackers can differ.",
+    "strategy_change": "",
+    "sources": [
+      "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-nears-60k-despite-145714968.html",
+      "https://fortune.com/article/price-of-bitcoin-11-24-2026/"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-24T22:10:45+00:00",
+    "status": "recorded"
   }
 ]
