@@ -585,5 +585,23 @@
     "orders": [],
     "first_seen_utc": "2026-11-25T13:13:50+00:00",
     "status": "recorded"
+  },
+  {
+    "id": "crypto-20261125-2210",
+    "portfolio": "crypto",
+    "decided_at_utc": "2026-11-25T22:10:00+00:00",
+    "model": "Claude",
+    "summary": "No orders today: bitcoin slipped again to about $58,600, its lowest this month, the US bitcoin funds lost money for a sixth trading day in a row, and none of my conditions for buying back has been met, so the account stays in cash.",
+    "thesis": "Where the account stands. The account is $988.30 in cash and holds no coins, about 1.2% below its $1,000 start. A plain $1,000 bitcoin holding bought on 11 November was worth $808.10 at the end of 24 November, so the account is about $180 ahead of simply holding bitcoin. At this morning's price near $58,600 that holding would be worth about $792.\n\nWhat happened. Bitcoin's last price of 24 November on Coinbase was $59,741, down 2.4% on the day. Early on Wednesday 25 November it was about $59,100 at 05:50 UTC, then about $58,600 at 10:41 UTC and $58,564 at 11:45 UTC. Ether was about $1,641 and XRP about $0.90 at the same time. The US spot bitcoin funds lost a net $232 million on 24 November after $570 million on 23 November, their sixth straight trading day of outflows, and November's withdrawals reached about $4.9 billion, the largest month on record. US inflation (PCE) and growth figures were due at 8:30 a.m. New York time today; one headline put inflation at 3.8% with bitcoin falling to $58,000, but I could not open that report to confirm it. Analysts quoted today name $58,000 as the floor to watch and say bitcoin needs to get back above $62,000 before the mood improves.\n\nThe trend. Using the figures collected for this account (last price of 24 November), bitcoin is about 11% below its 20-day average ($67,490), about 21% below its 50-day average ($75,640) and about 17% below its 200-day average ($72,130), with today's price lower still. It is down 26% over 20 days and 29% over 60. Every other watched coin is also below all three of its averages and down 23% to 31% over 20 days; ether is the weakest at -31%, so nothing is showing strength of its own. Under the plan this is the lowest band, at the bottom of it while bitcoin is clearly below its 200-day average.\n\nThe case for buying, taken seriously. After a fall of almost 30% in two months, record fund withdrawals and very low sentiment, a sharp rebound could start at any time, and buying near $58,600 would be about 20% cheaper than where the benchmark started. But the evidence today still points down: each bounce this week has failed, the funds keep selling, and inflation news is pushing toward higher US interest rates. Waiting for the conditions below costs a few percent if the bottom is close; buying now costs more if $58,000 gives way.\n\nWhat would bring me back, unchanged. I will buy bitcoin again if it ends a UTC day back above its 200-day average, now about $72,100, or earlier with a smaller amount (about 15% to 20% of the account) if it holds above $70,000 for two UTC days while the bitcoin funds take in money on most days. I will take a small first step, about 10% of the account, if bitcoin ends two UTC days above $62,000 and the funds report money coming in on at least two trading days. This view is wrong if this week's lows prove to be the bottom and bitcoin climbs quickly, in which case the account buys back higher and gives back part of its lead.",
+    "risks": "The main risk is missing the turn: after falls this steep, rebounds can be fast, and the account would buy back higher and give back part of its lead over bitcoin. Prices here come from news reports taken in the morning UTC; bitcoin can move several percent before midnight UTC, and I could not confirm the actual inflation figure released today. Fund-flow figures come from reports citing SoSoValue and Bloomberg, and other trackers give slightly different totals.",
+    "strategy_change": "",
+    "sources": [
+      "https://fortune.com/article/price-of-bitcoin-11-25-2026/",
+      "https://www.businesstoday.in/crypto/token/story/crypto-winter-again-bitcoin-price-below-60000-as-etf-outflows-hit-4-94-billion-in-november-569441-2026-11-25",
+      "https://crypto.news/bitcoin-price-prediction-etf-outflows-us-pce-gdp/"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-25T22:10:29+00:00",
+    "status": "recorded"
   }
 ]
