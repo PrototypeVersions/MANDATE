@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-25T05:43:08+00:00",
+  "as_of_utc": "2026-11-25T08:33:06+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -324,21 +324,21 @@
         "change_5d_pct": -3.51,
         "change_20d_pct": -25.72,
         "change_60d_pct": -28.96,
-        "average_20d": 67485.6625,
-        "average_50d": 75638.0548,
-        "average_200d": 72128.0569
+        "average_20d": 67279.0895,
+        "average_50d": 75555.4896,
+        "average_200d": 72105.5422
       },
       "DOGE": {
         "date": "2026-11-24",
-        "close": 0.05524,
-        "change_pct": -1.94,
+        "close": 0.05521,
+        "change_pct": -1.99,
         "source": "Coinbase Exchange daily candles",
-        "change_5d_pct": -5.05,
-        "change_20d_pct": -28.25,
-        "change_60d_pct": -44.18,
-        "average_20d": 0.062472,
-        "average_50d": 0.07324,
-        "average_200d": 0.081844
+        "change_5d_pct": -5.1,
+        "change_20d_pct": -28.27,
+        "change_60d_pct": -44.21,
+        "average_20d": 0.062469,
+        "average_50d": 0.073234,
+        "average_200d": 0.081843
       },
       "ETH": {
         "date": "2026-11-24",
@@ -348,9 +348,9 @@
         "change_5d_pct": -4.43,
         "change_20d_pct": -30.74,
         "change_60d_pct": -37.67,
-        "average_20d": 1909.853,
-        "average_50d": 2204.9326,
-        "average_200d": 2116.1898
+        "average_20d": 1909.8765,
+        "average_50d": 2204.9422,
+        "average_200d": 2116.14255
       },
       "LINK": {
         "date": "2026-11-24",
