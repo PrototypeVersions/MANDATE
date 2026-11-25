@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-25T04:25:01+00:00",
+  "as_of_utc": "2026-11-25T05:43:08+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -330,15 +330,15 @@
       },
       "DOGE": {
         "date": "2026-11-24",
-        "close": 0.05521,
-        "change_pct": -1.99,
+        "close": 0.05524,
+        "change_pct": -1.94,
         "source": "Coinbase Exchange daily candles",
-        "change_5d_pct": -5.1,
-        "change_20d_pct": -28.27,
-        "change_60d_pct": -44.21,
-        "average_20d": 0.062469,
-        "average_50d": 0.073234,
-        "average_200d": 0.081843
+        "change_5d_pct": -5.05,
+        "change_20d_pct": -28.25,
+        "change_60d_pct": -44.18,
+        "average_20d": 0.062472,
+        "average_50d": 0.07324,
+        "average_200d": 0.081844
       },
       "ETH": {
         "date": "2026-11-24",
@@ -372,9 +372,9 @@
         "change_5d_pct": -4.78,
         "change_20d_pct": -27.17,
         "change_60d_pct": -43.03,
-        "average_20d": 77.7665,
-        "average_50d": 93.1816,
-        "average_200d": 88.12305
+        "average_20d": 77.766,
+        "average_50d": 93.181,
+        "average_200d": 88.1293
       },
       "XRP": {
         "date": "2026-11-24",
