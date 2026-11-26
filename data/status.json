@@ -1,8 +1,35 @@
 {
-  "last_run_utc": "2026-11-25T22:25:07+00:00",
-  "ok": true,
-  "errors": [],
-  "warnings": [],
+  "last_run_utc": "2026-11-26T02:57:23+00:00",
+  "ok": false,
+  "errors": [
+    "stocks SPY: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLV: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks: books not advanced, missing prices for SPY, XLV"
+  ],
+  "warnings": [
+    "stocks DIA: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks EEM: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks EFA: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks GLD: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks IEF: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks IWM: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks QQQ: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks RSP: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks SGOV: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks SMH: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks TLT: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks VTI: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLB: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLC: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLE: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLF: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLI: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLK: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLP: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLRE: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLU: HTTPError: HTTP Error 429: Too Many Requests",
+    "stocks XLY: HTTPError: HTTP Error 429: Too Many Requests"
+  ],
   "decisions_recorded": 25,
   "new_decisions_this_run": 0
 }
