@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-26T22:10:12+00:00",
+  "as_of_utc": "2026-11-26T22:15:10+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -322,11 +322,11 @@
         "change_pct": 1.08,
         "source": "Coinbase Exchange daily candles",
         "change_5d_pct": 2.67,
-        "change_20d_pct": -20.52,
+        "change_20d_pct": -20.51,
         "change_60d_pct": -28.47,
-        "average_20d": 66706.385,
-        "average_50d": 75134.9296,
-        "average_200d": 72026.69465
+        "average_20d": 66500.1425,
+        "average_50d": 75052.3644,
+        "average_200d": 72004.179
       },
       "DOGE": {
         "date": "2026-11-25",
@@ -348,9 +348,9 @@
         "change_5d_pct": 4.39,
         "change_20d_pct": -24.35,
         "change_60d_pct": -37.29,
-        "average_20d": 1882.6415,
-        "average_50d": 2184.7946,
-        "average_200d": 2113.0109
+        "average_20d": 1882.665,
+        "average_50d": 2184.8042,
+        "average_200d": 2112.96365
       },
       "LINK": {
         "date": "2026-11-25",
@@ -372,9 +372,9 @@
         "change_5d_pct": 2.4,
         "change_20d_pct": -21.11,
         "change_60d_pct": -42.02,
-        "average_20d": 76.825,
-        "average_50d": 92.1752,
-        "average_200d": 88.00935
+        "average_20d": 76.8245,
+        "average_50d": 92.1746,
+        "average_200d": 88.0156
       },
       "XRP": {
         "date": "2026-11-25",
