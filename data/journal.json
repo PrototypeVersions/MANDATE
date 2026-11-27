@@ -656,5 +656,26 @@
     "orders": [],
     "first_seen_utc": "2026-11-27T13:12:03+00:00",
     "status": "recorded"
+  },
+  {
+    "id": "crypto-20261127-2210",
+    "portfolio": "crypto",
+    "decided_at_utc": "2026-11-27T22:10:00+00:00",
+    "model": "Claude",
+    "summary": "No orders today: bitcoin briefly rose above $62,000 early on Friday but slipped back to about $59,500 once US stock trading resumed, the US bitcoin funds have now lost money for seven trading days in a row, and none of my conditions for buying back has been met, so the account stays in cash.",
+    "thesis": "Where the account stands. The account is $988.30 in cash and holds no coins, about 1.2% below its $1,000 start. A plain $1,000 bitcoin holding bought on 11 November was worth $818.31 at the end of 26 November, so the account is about $170 ahead of simply holding bitcoin. All of that lead comes from having been out of the market since 14 November.\n\nWhat happened. Bitcoin's last price of 26 November on Coinbase was $60,496, up 0.2% on the day. Early on Friday 27 November it rose above $62,000 (one report gives a 24-hour range of about $59,800 to $62,100 and a price of $61,508 at about 13:00 UTC), but it gave the gains back when US stock trading resumed after Thanksgiving and was about $59,550 at 17:40 UTC. Ether was about $1,690 to $1,720, solana about $73, XRP about $0.97 and chainlink about $9.40. Chainlink has been the strongest of the watched coins this week, up about 5% to 8% over five days, helped by news that Fidelity has filed for a US fund holding it. About $7.6 billion of bitcoin and ether options expired today, which can push prices around for a day. The US bitcoin funds have had seven straight trading days of withdrawals, and reports now put November's total at about $5.4 billion, the worst month since they launched; I found no single-day figure for 25 or 26 November. The fear and greed gauge was at 12 out of 100, still extreme fear. Strong US growth and inflation figures this week keep a December US interest rate rise on the table, which works against bitcoin. On the positive side, a bill for a US strategic bitcoin reserve passed a House committee on 24 November, though it would not require any purchases. One headline today mentioned concerns about bitcoin public-key exposure; I could not read that article and give it no weight.\n\nThe trend. Using the figures for the end of 26 November, bitcoin at $60,496 is below its 20-day average ($65,945), its 50-day average ($74,679) and its 200-day average ($71,918). It is down 20.1% over 20 days and 28.4% over 60. Every other watched coin is also below all three of its averages and down 14% to 25% over 20 days; chainlink is closest to its 20-day average but still below it. Under the plan this is the lowest band, at the bottom of it while bitcoin is clearly below its 200-day average.\n\nThe case for buying, taken seriously. Bitcoin is on course for its first up week in seven, sentiment is near its gloomiest, and the price has held above about $57,000 several times. But today's move above $62,000 did not last even to the end of the UTC day, the funds are still selling, and the rebound is happening in thin holiday trading. A short peek above a level is exactly what my $62,000 condition was written to filter out. Waiting costs a few percent if the bottom is in; buying now costs more if $57,000 gives way.\n\nWhat would bring me back, unchanged. I will buy bitcoin again if it ends a UTC day back above its 200-day average, now about $72,000, or earlier with a smaller amount (about 15% to 20% of the account) if it holds above $70,000 for two UTC days while the bitcoin funds take in money on most days. I will take a small first step, about 10% of the account, if bitcoin ends two UTC days above $62,000 and the funds report money coming in on at least two trading days. This view is wrong if this week's lows prove to be the bottom and bitcoin climbs quickly, in which case the account buys back higher and gives back part of its lead.",
+    "risks": "Staying in cash means missing a sharp rebound from extreme fear, which has happened often in crypto; the account's lead over bitcoin would shrink if prices recover quickly before my conditions are met. Price reports from different sources and times disagree by a few percent, and thin holiday trading makes today's moves a weak guide in either direction.",
+    "strategy_change": "",
+    "sources": [
+      "https://thecompanychronicle.com/story/crypto-prices-today-november-27-2026",
+      "https://www.ad-hoc-news.de/boerse/news/marktberichte/bitcoin-price-btc-trades-lower-us-equities-reopen-after-holiday/70562897",
+      "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-27-2026",
+      "https://www.analyticsinsight.net/news/bitcoin-etfs-head-for-worst-month-on-record-as-outflows-near-usd-5-billion",
+      "https://www.gncrypto.news/news/bitcoin-etfs-shed-5-39b-november-morgan-stanley-gains/",
+      "https://www.cryptotimes.io/2026/11/26/spot-bitcoin-etfs-witness-over-3-billion-in-net-outflows-streak/"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-27T22:10:25+00:00",
+    "status": "recorded"
   }
 ]
