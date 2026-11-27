@@ -40,20 +40,20 @@
           "units": 0.7883737651828093,
           "cost": 150.15,
           "opened": "2026-11-12",
-          "price": 183.67999267578125,
-          "price_date": "2026-11-25",
-          "value": 144.81
+          "price": 184.1999969482422,
+          "price_date": "2026-11-27",
+          "value": 145.22
         }
       },
-      "last_bar_date": "2026-11-25",
+      "last_bar_date": "2026-11-27",
       "benchmark": {
         "symbol": "SPY",
         "units": 1.3161185033100382,
         "start_date": "2026-11-11",
         "start_price": 759.81
       },
-      "equity": 971.9,
-      "benchmark_value": 943.26
+      "equity": 972.31,
+      "benchmark_value": 958.56
     },
     "crypto": {
       "starting_cash": 1000,
