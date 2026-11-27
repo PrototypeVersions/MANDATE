@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T13:03:36+00:00",
+  "as_of_utc": "2026-11-27T13:12:03+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -348,9 +348,9 @@
         "change_5d_pct": 0.32,
         "change_20d_pct": -24.5,
         "change_60d_pct": -37.22,
-        "average_20d": 1855.2535,
-        "average_50d": 2167.0908,
-        "average_200d": 2109.59335
+        "average_20d": 1855.277,
+        "average_50d": 2167.1004,
+        "average_200d": 2109.54615
       },
       "LINK": {
         "date": "2026-11-26",
@@ -372,9 +372,9 @@
         "change_5d_pct": 1.1,
         "change_20d_pct": -21.21,
         "change_60d_pct": -41.85,
-        "average_20d": 75.8705,
-        "average_50d": 91.2688,
-        "average_200d": 87.88205
+        "average_20d": 75.87,
+        "average_50d": 91.2682,
+        "average_200d": 87.88805
       },
       "XRP": {
         "date": "2026-11-26",

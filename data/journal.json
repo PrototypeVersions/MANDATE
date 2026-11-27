@@ -639,5 +639,22 @@
     "orders": [],
     "first_seen_utc": "2026-11-26T22:10:12+00:00",
     "status": "recorded"
+  },
+  {
+    "id": "stocks-20261127-1311",
+    "portfolio": "stocks",
+    "decided_at_utc": "2026-11-27T13:11:00+00:00",
+    "model": "Claude",
+    "summary": "No orders: futures point to a rise of about 1.6% at this morning's short Black Friday session, but even that would leave the S&P 500 fund below its 200-day average and well short of the buy-back line, so the cash waits for that signal or 10 December at the latest, and the health care fund stays beca",
+    "thesis": "Where the account stands. The books still show the end of Wednesday 25 November, since markets were closed on Thursday for Thanksgiving: the account was worth $971.90 against $943.26 for the benchmark, $1,000 left in an S&P 500 fund, a lead of about $29. Twelve trading days is far too short to call this skill or luck.\n\nTiming. US stock markets open today, Friday 27 November, at 9:30 a.m. New York time and close early, at 1 p.m. Any order written now fills at today's open.\n\nWhat has happened since the last decision. Markets were closed on Thursday, so there are no new closing prices. Before today's open, S&P 500 futures were up about 1.6% to 1.7%, Dow futures about 1.3% and Nasdaq 100 futures about 2.1% to 2.4%, depending on the time of the quote. Chip and technology stocks led a rally in Asia, where Chinese chipmakers had record one-day gains after state media said the government would act to stop a long market decline. Oil rose after attacks on ships in the Strait of Hormuz and on Saudi energy sites. No major company results or economic figures are due today. Traders still see a Fed rate increase on 9 December as very likely. One report quotes analysts calling the rebound technical rather than a lasting recovery.\n\nEach holding judged against what I wrote when I bought it:\n\n1. XLV: keep. It ended Wednesday at $183.68, about 4% above the $176 sell line and above its 50-day average ($177.39). I found no news on a wider Medicare proposal, the other stated reason to sell. It is about 3.5% below what I paid. If it ends any day below $176, the next decision sells it.\n\n2. Cash, about $827 (85%). The plan buys back the S&P 500 fund SPY when it ends two trading days in a row at least 1% above its 200-day average. That average was $733.16 on Wednesday, so the line is about $740.49. SPY ended Wednesday at $716.70. A 1.6% rise would put it near $728, still below the average itself and about 1.7% short of the line. So the signal cannot come today; the earliest it could come is the end of Monday 30 November, and only if SPY ends both today and Monday above the line, which would need a rise of more than 3% today. Buying at this morning's open would mean acting on one good morning, on the thinnest trading day of the year, which is what the plan's buy-back rule was written to prevent. The written end date stands: the account goes back to being fully invested no later than 10 December, the first trading day after the Fed decision, whether or not the signal comes.\n\nOther uses for the cash were checked again. Consumer staples (XLP) is above all its averages but has no specific reason beyond momentum for a stay of about eight trading days. Treasury bills would earn less than the fees over that time. Neither meets the plan's bar.\n\nThis is not the first decision of the month, so there is no monthly review. The first is due at the start of December.",
+    "risks": "If the rally holds and builds through next week, the account will give back its lead and may buy back SPY above the price at which it was sold. If the market falls again, the 10 December date could put the cash back in at a bad moment. A larger Fed increase on 9 December, tariff news or rising oil could hit stocks and push XLV toward its $176 line. Today's short session has little trading, so prices can swing more than usual, and futures quotes before the open often differ from where prices end.",
+    "strategy_change": "",
+    "sources": [
+      "https://www.tipranks.com/news/stock-market-today-nov-27-markets-reopen-for-shortened-black-friday-trading",
+      "https://jbiznews.com/us-stock-futures-jump-before-a-short-black-friday-session/"
+    ],
+    "orders": [],
+    "first_seen_utc": "2026-11-27T13:12:03+00:00",
+    "status": "recorded"
   }
 ]
