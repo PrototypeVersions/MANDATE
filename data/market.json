@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-27T02:59:18+00:00",
+  "as_of_utc": "2026-11-27T03:42:04+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -372,9 +372,9 @@
         "change_5d_pct": 1.1,
         "change_20d_pct": -21.21,
         "change_60d_pct": -41.85,
-        "average_20d": 75.87,
-        "average_50d": 91.2682,
-        "average_200d": 87.88805
+        "average_20d": 75.8705,
+        "average_50d": 91.2688,
+        "average_200d": 87.88205
       },
       "XRP": {
         "date": "2026-11-26",
