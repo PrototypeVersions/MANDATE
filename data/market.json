@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-28T02:50:43+00:00",
+  "as_of_utc": "2026-11-28T03:24:53+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -354,15 +354,15 @@
       },
       "LINK": {
         "date": "2026-11-27",
-        "close": 9.366,
-        "change_pct": 1.06,
+        "close": 9.365,
+        "change_pct": 1.05,
         "source": "Coinbase Exchange daily candles",
-        "change_5d_pct": 6.3,
-        "change_20d_pct": -13.45,
-        "change_60d_pct": -39.34,
-        "average_20d": 9.38225,
-        "average_50d": 10.85536,
-        "average_200d": 10.053255
+        "change_5d_pct": 6.29,
+        "change_20d_pct": -13.39,
+        "change_60d_pct": -39.35,
+        "average_20d": 9.38155,
+        "average_50d": 10.85474,
+        "average_200d": 10.05331
       },
       "SOL": {
         "date": "2026-11-27",
