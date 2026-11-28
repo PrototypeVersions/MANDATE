@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-11-28T03:24:53+00:00",
+  "as_of_utc": "2026-11-28T05:01:21+00:00",
   "prices": {
     "stocks": {
       "DIA": {
@@ -307,14 +307,14 @@
       "AVAX": {
         "date": "2026-11-27",
         "close": 6.606,
-        "change_pct": 0.32,
+        "change_pct": 0.3,
         "source": "Coinbase Exchange daily candles",
         "change_5d_pct": -1.06,
         "change_20d_pct": -19.66,
         "change_60d_pct": -37.74,
-        "average_20d": 7.28785,
-        "average_50d": 8.47096,
-        "average_200d": 7.9093
+        "average_20d": 7.28825,
+        "average_50d": 8.4715,
+        "average_200d": 7.908375
       },
       "BTC": {
         "date": "2026-11-27",
@@ -348,9 +348,9 @@
         "change_5d_pct": -3.51,
         "change_20d_pct": -25.74,
         "change_60d_pct": -38.2,
-        "average_20d": 1826.468,
-        "average_50d": 2150.8498,
-        "average_200d": 2106.2006
+        "average_20d": 1826.4915,
+        "average_50d": 2150.8594,
+        "average_200d": 2106.15485
       },
       "LINK": {
         "date": "2026-11-27",
@@ -372,9 +372,9 @@
         "change_5d_pct": 1.39,
         "change_20d_pct": -20.16,
         "change_60d_pct": -39.74,
-        "average_20d": 74.966,
-        "average_50d": 90.5092,
-        "average_200d": 87.7592
+        "average_20d": 74.9665,
+        "average_50d": 90.5098,
+        "average_200d": 87.75325
       },
       "XRP": {
         "date": "2026-11-27",
